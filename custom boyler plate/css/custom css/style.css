@@ -1,0 +1,204 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+header,
+section {
+  padding: 60px 0px;
+}
+.writing-area {
+  text-align: center;
+}
+.title {
+  text-transform: uppercase;
+  text-align: center;
+}
+.underline {
+  border-top: 5px solid rgba(0, 0, 0, 0.121);
+  display: inline-block;
+  margin-top: 10px;
+  width: 15%;
+}
+
+.p-btn {
+  padding-top: 5px;
+  margin-top: 50px;
+}
+
+/*
+==========================
+ header area
+==========================
+*/
+#header {
+  background-color: #87509c;
+}
+nav.navbar {
+  background-color: #87509c;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+nav.menu ul li a {
+  text-transform: uppercase;
+  color: #fff;
+  transition: calc(0.3s);
+}
+nav.menu ul li a:hover {
+  background-color: #643a79;
+  color: #fff;
+  border-radius: 5px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show .nav-link {
+  background-color: #643a79;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.hero-area {
+  padding: 100px 0px 30px 0px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 400;
+}
+/*
+==========================
+ services area
+==========================
+*/
+#services {
+  background-color: #17c2a4;
+  color: #fff;
+}
+
+#services .box-area img {
+  height: 100px;
+}
+/*
+==========================
+ team area
+==========================
+*/
+#team {
+  background-color: #e7f1f8;
+  color: #3c4761;
+  text-align: center;
+}
+.team-box img {
+  max-width: 50%;
+  height: 200px;
+  border-radius: 50%;
+}
+.deg {
+  color: #9ddbf1;
+}
+.social-link {
+  display: inline-block;
+  margin: 0 auto;
+}
+.social-link ul li a {
+  padding: 15px;
+}
+
+.social-link ul li a i {
+  font-size: 16px;
+  color: #fff;
+  padding: 5px;
+  background: #878787;
+  border: 1px solid #e7f1f8;
+  border-radius: 100%;
+  transition: 0.3s;
+}
+.social-link ul li a i:hover {
+  background: #87509c;
+  font-size: 25px;
+}
+/*
+==========================
+ Skill area
+==========================
+*/
+#skill {
+  background-color: #ffffff;
+}
+
+/*
+==========================
+ protfolio area
+==========================
+*/
+#protfolio {
+  background-color: #ffdd99;
+}
+.tab-menu {
+  display: inline-block;
+  margin: 7px auto;
+}
+.tab-menu ul {
+  margin-bottom: 25px;
+}
+.tab-menu ul li a {
+  background-color: #ebc985;
+  color: #000;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+#protfolio .box-area img {
+  width: 100%;
+}
+/*
+==========================
+ about area
+==========================
+*/
+#about {
+  background-color: #d74680;
+  color: #fff;
+}
+.img-blog img {
+  max-width: 85%;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/*
+==========================
+ contact area
+==========================
+*/
+#contact {
+  background-color: #3c5499;
+  color: #fff;
+}
+.input-form input,
+.input-form textarea {
+  background-color: #273a71;
+  border: none;
+}
+
+.cont-btn button {
+  background-color: #30bae7;
+}
+/*
+==========================
+ footer area
+==========================
+*/
+#footer {
+  background-color: #344b8e;
+  text-align: center;
+}
+#footer .ft-link {
+  display: inline-block;
+  margin: 0px auto;
+}
+#footer .ft-link ul li a {
+  color: #fff;
+  transition: calc(0.5s);
+}
+#footer .ft-link ul li a:hover {
+  background-color: #d74680;
+  color: #000;
+  border-radius: 15px;
+}
